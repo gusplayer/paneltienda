@@ -65,9 +65,6 @@
         default: () => []
       }
     },
-    components: {
-      MovingArrow
-    },
     computed: {
       sidebarClasses () {
         if (this.type === 'sidebar') {
